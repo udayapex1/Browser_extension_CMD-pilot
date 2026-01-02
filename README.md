@@ -309,15 +309,16 @@ Every star motivates us to build better tools for developers! ✨
 
 ---
 
-## 📬 Connect With Us
+## 📬 Connect With Me
 
-- 📖 **Documentation:** [docs.commandpilot.dev](https://docs.commandpilot.dev)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/yourusername/command-pilot/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/yourusername/command-pilot/discussions)
-- 🐦 **Twitter:** [@CommandPilot](https://twitter.com/commandpilot)
-- 📧 **Email:** hello@commandpilot.dev
+- 🌐 **Portfolio:** https://udaysite.vercel.app
+- 🐙 **GitHub:** https://github.com/apexuday
+- 🐛 **Issues / Contributions:** https://github.com/apexuday/Command-Pilot/issues
+- 💬 **Discussions:** https://github.com/apexuday/Command-Pilot/discussions
+- 💼 **LinkedIn:** https://linkedin.com/in/uday-pareta-b114aa284
 
 ---
+
 
 ## 📄 License
 
