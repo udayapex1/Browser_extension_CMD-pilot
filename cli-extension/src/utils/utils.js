@@ -1,2 +1,2 @@
-export const BACKEND_URL = "http://localhost:3000"
+export const BACKEND_URL = "https://browser-extension-cmd-pilot.onrender.com"
 

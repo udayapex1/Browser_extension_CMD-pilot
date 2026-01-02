@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Settings,
-  Moon,
-  Sun,
-} from "lucide-react";
+import { Settings, Moon, Sun } from "lucide-react";
 import CommandHistory from "./CommandHistory.jsx";
 import { getOS } from "../utils/getOS.js";
 import Login from "./Login.jsx";
@@ -88,11 +84,11 @@ export default function ExtensionnapUI({ theme, setTheme }) {
   const isDark = theme === "dark";
 
   return (
-    <div className={`min-h-screen p-6 overflow-y-scroll scrollbar-hide transition-colors duration-200 ${
-      isDark 
-        ? "bg-gray-900 text-white" 
-        : "bg-gray-50 text-gray-900"
-    }`}>
+    <div
+      className={`min-h-screen p-6 overflow-y-scroll scrollbar-hide transition-colors duration-200 ${
+        isDark ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
+      }`}
+    >
       {showLogin && !user ? (
         <Login
           theme={theme}
@@ -118,42 +114,42 @@ export default function ExtensionnapUI({ theme, setTheme }) {
           {/* Header */}
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 rounded flex items-center justify-center flex-shrink-0">
-                <img
-                  src="https://res.cloudinary.com/dwemivxbp/image/upload/v1749876793/WhatsApp_Image_2025-06-14_at_10.15.25_AM_1_atltbj.png"
-                  alt="Command Pilot Logo"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <h1 className={`text-2xl font-semibold ${
-                isDark ? "text-white" : "text-gray-900"
-              }`}>
+              
+              <h1
+                className={`text-2xl font-semibold ${
+                  isDark ? "text-white" : "text-gray-900"
+                }`}
+              >
                 Command Pilot
               </h1>
-              <h2 className={`px-3 py-1 font-sans font-bold rounded-md ${
-                isDark 
-                  ? "bg-white text-black" 
-                  : "bg-gray-900 text-white"
-              }`}>
+              <h2
+                className={`px-3 py-1 font-sans font-bold rounded-md ${
+                  isDark ? "bg-white text-black" : "bg-gray-900 text-white"
+                }`}
+              >
                 {os}
               </h2>
             </div>
             <div className="flex items-center space-x-4">
               {user ? (
                 <>
-                  <span className={`text-sm ${
-                    isDark ? "text-gray-400" : "text-gray-600"
-                  }`}>
+                  <span
+                    className={`text-sm ${
+                      isDark ? "text-gray-400" : "text-gray-600"
+                    }`}
+                  >
                     Hi, {user.username || user.email}
                   </span>
                   <button
                     onClick={handleLogout}
                     disabled={isLoggingOut}
-                    className={`text-sm disabled:opacity-50 transition-colors ${
-                      isDark 
-                        ? "text-gray-300 hover:text-white" 
-                        : "text-gray-700 hover:text-gray-900"
-                    }`}
+                    className={`px-3 text-center  py-2 text-sm rounded-md transition-colors
+                              disabled:opacity-50
+                              ${
+                                isDark
+                                  ? "text-gray-300 hover:bg-gray-800 hover:text-white"
+                                  : "text-gray-700 hover:bg-gray-100"
+                              }`}
                   >
                     {isLoggingOut ? "Logging out..." : "Logout"}
                   </button>
@@ -162,34 +158,34 @@ export default function ExtensionnapUI({ theme, setTheme }) {
                 <button
                   onClick={() => setShowLogin(true)}
                   className={`text-sm transition-colors ${
-                    isDark 
-                      ? "text-gray-300 hover:text-white" 
+                    isDark
+                      ? "text-gray-300 hover:text-white"
                       : "text-gray-700 hover:text-gray-900"
                   }`}
                 >
                   Login
                 </button>
               )}
-{token && (
-  <button
-    onClick={() => setShowProfile(true)}
-    className={`p-1 rounded-lg transition-colors ${
-      isDark
-        ? "text-gray-400 hover:text-white hover:bg-gray-800"
-        : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
-    }`}
-    title="Settings"
-  >
-    <Settings className="w-6 h-6" />
-  </button>
-)}
+              {token && (
+                <button
+                  onClick={() => setShowProfile(true)}
+                  className={`p-1 rounded-lg transition-colors ${
+                    isDark
+                      ? "text-gray-400 hover:text-white hover:bg-gray-800"
+                      : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                  }`}
+                  title="Settings"
+                >
+                  <Settings className="w-6 h-6" />
+                </button>
+              )}
 
               {isDark ? (
                 <Sun
                   onClick={toggleTheme}
                   className={`w-6 h-6 cursor-pointer transition-colors ${
-                    isDark 
-                      ? "text-gray-400 hover:text-yellow-400" 
+                    isDark
+                      ? "text-gray-400 hover:text-yellow-400"
                       : "text-gray-600 hover:text-yellow-600"
                   }`}
                   title="Switch to light theme"
@@ -198,8 +194,8 @@ export default function ExtensionnapUI({ theme, setTheme }) {
                 <Moon
                   onClick={toggleTheme}
                   className={`w-6 h-6 cursor-pointer transition-colors ${
-                    isDark 
-                      ? "text-gray-400 hover:text-white" 
+                    isDark
+                      ? "text-gray-400 hover:text-white"
                       : "text-gray-600 hover:text-gray-900"
                   }`}
                   title="Switch to dark theme"

@@ -114,13 +114,13 @@ export default function Register({ theme, onRegister, onSwitchToLogin }) {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
+            {/* <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
               <img
                 src="https://res.cloudinary.com/dwemivxbp/image/upload/v1749876793/WhatsApp_Image_2025-06-14_at_10.15.25_AM_1_atltbj.png"
                 alt="Command Pilot Logo"
                 className="w-full h-full object-contain"
               />
-            </div>
+            </div> */}
             <h1 className={`text-3xl font-semibold ${
               isDark ? "text-white" : "text-gray-900"
             }`}>
