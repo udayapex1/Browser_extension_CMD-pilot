@@ -1,0 +1,146 @@
+{
+  "user": {
+    "_id": "507f1f77bcf86cd799439011",
+    "username": "johndoe",
+    "email": "john@example.com",
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "updatedAt": "2025-01-20T00:00:00.000Z"
+  },
+  "stats": {
+    "totalCommandsGenerated": 127,
+    "totalCommandsSaved": 45,
+    "commandsThisMonth": 23,
+    "commandsThisWeek": 8,
+    "commandsToday": 3,
+    "favoriteOS": "Linux",
+    "successRate": 94,
+    "streakDays": 12,
+    "accountCreated": "2024-01-15T00:00:00.000Z",
+    "lastActive": "2025-01-20T00:00:00.000Z"
+  },
+  "commands": [
+    {
+      "_id": "507f1f77bcf86cd799439012",
+      "command": "npm install react",
+      "appName": "react",
+      "os": "linux",
+      "distro": "ubuntu",
+      "createdAt": "2025-01-20T10:30:00.000Z",
+      "updatedAt": "2025-01-20T10:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439013",
+      "command": "docker run -d -p 80:80 nginx",
+      "appName": "docker",
+      "os": "linux",
+      "distro": "debian",
+      "createdAt": "2025-01-19T15:45:00.000Z",
+      "updatedAt": "2025-01-19T15:45:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439014",
+      "command": "git clone https://github.com/user/repo.git",
+      "appName": "git",
+      "os": "linux",
+      "createdAt": "2025-01-18T09:20:00.000Z",
+      "updatedAt": "2025-01-18T09:20:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439015",
+      "command": "brew install node",
+      "appName": "node",
+      "os": "mac",
+      "createdAt": "2025-01-17T14:10:00.000Z",
+      "updatedAt": "2025-01-17T14:10:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439016",
+      "command": "winget install Python.Python.3.11",
+      "appName": "python",
+      "os": "windows",
+      "createdAt": "2025-01-16T11:00:00.000Z",
+      "updatedAt": "2025-01-16T11:00:00.000Z"
+    }
+  ],
+  "weeklyActivity": [
+    {
+      "day": "Mon",
+      "commands": 8,
+      "saved": 3
+    },
+    {
+      "day": "Tue",
+      "commands": 12,
+      "saved": 5
+    },
+    {
+      "day": "Wed",
+      "commands": 15,
+      "saved": 7
+    },
+    {
+      "day": "Thu",
+      "commands": 10,
+      "saved": 4
+    },
+    {
+      "day": "Fri",
+      "commands": 18,
+      "saved": 9
+    },
+    {
+      "day": "Sat",
+      "commands": 6,
+      "saved": 2
+    },
+    {
+      "day": "Sun",
+      "commands": 4,
+      "saved": 1
+    }
+  ],
+  "monthlyTrend": [
+    {
+      "month": "Jan",
+      "commands": 45
+    },
+    {
+      "month": "Feb",
+      "commands": 52
+    },
+    {
+      "month": "Mar",
+      "commands": 48
+    },
+    {
+      "month": "Apr",
+      "commands": 61
+    },
+    {
+      "month": "May",
+      "commands": 55
+    },
+    {
+      "month": "Jun",
+      "commands": 67
+    }
+  ],
+  "osDistribution": [
+    {
+      "name": "Linux",
+      "value": 75,
+      "color": "#3b82f6"
+    },
+    {
+      "name": "Windows",
+      "value": 15,
+      "color": "#10b981"
+    },
+    {
+      "name": "macOS",
+      "value": 10,
+      "color": "#8b5cf6"
+    }
+  ]
+}
+

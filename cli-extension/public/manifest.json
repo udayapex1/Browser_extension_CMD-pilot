@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Linux Command AI Assistant",
+  "version": "1.0",
+  "description": "Generate AI-powered terminal commands",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:3000/", "https://your-api.com/"]
+}
