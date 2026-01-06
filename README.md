@@ -1,6 +1,6 @@
 # ⚡ Command Pilot
 
-> **Your AI-powered terminal copilot.** Speak naturally, execute perfectly. One request, one command, zero friction.
+> **Your AI-powered Browser Extension.** Speak naturally, execute perfectly. One request, one command, zero friction.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
